@@ -134,24 +134,84 @@ margin-top: 50px;
 font-family: Montserrat Regular;
 }
 
-.offers .container div {
+.offers .container .o-location {
     display: flex;
+    justify-content: space-between;
 } 
 
-.offers .container .offer-point {
+.offers .container .e {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 105px;
 }
 
-.offers .container .offer-point .o-cont .m-point {
+.offers .container .o-location .offer-point {
+    display: flex;
+    margin: 70px;
+}
+
+.offers .container .o-location .offer-point .o-cont{
+    margin-left: 17px;
+    margin-top: 50px;
+}
+.offers .container .o-location .offer-point .o-cont .m-point {
     font-size: 18px;
 line-height: 22px;
 font-family: Montserrat Regular;
-
 }
 
-.offers .container .offer-point .o-cont .o-expl{
+.offers .container .o-location .offer-point .o-cont .o-expl{
     font-size: 14px;
 line-height: 22px;
 color: #999999;
 font-family: Montserrat Regular;
+margin-top: 12px;
+}
+
+.studios-result {
+    background: #F6F6F8;
+    ;
+}
+
+.studios-result:first-child {
+    display: flex;
+    justify-content: center;
+   }
+
+   .studios-result .container{
+       display: flex;
+       justify-content: center;
+   }
+
+   .studios-result .container .media-part{
+    background: transparent;
+    margin-top: 100px;
+    margin-left: 121px;
+   }
+
+   .studios-result .container .txt-part .titl {
+    font-size: 36px;
+line-height: 53px;
+margin-top: 152px;
+font-family: Montserrat medium;
+font-weight: bold;
+color: black;
+margin-bottom: 40px;
+}
+
+.studios-result .container .txt-part .dev-info {
+    font-size: 16px;
+line-height: 25px;
+color: #999999;
+font-family: Montserrat Regular;
+margin-bottom: 30px;
+}
+
+.studios-result .container .txt-part .about-link a {
+    font-size: 16px;
+line-height: 20px;
+text-decoration-line: underline;
+color: #4985FF;
 }
